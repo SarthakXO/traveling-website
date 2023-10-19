@@ -1,5 +1,17 @@
-import Image from "next/image";
+import Camp from "@/Components/Camp";
+import Features from "@/Components/Features";
+import GetApp from "@/Components/GetApp";
+import Guide from "@/Components/Guide";
+import Hero from "@/Components/Hero";
 
 export default function Home() {
-  return <h1 className="text-teal-500 font-bold text-2xl">Hello world</h1>;
+  return (
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
+  );
 }
